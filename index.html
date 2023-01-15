@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mitr:wght@200;300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <title>Iphone</title>
+</head>
+
+<body>
+    <nav>
+        <div class="container">
+            <div class="logo">
+                <img src="/images/logo.png" alt="" />
+            </div>
+            <div class="menu" onclick=handleClick(this)>
+                <span class="bar1"></span>
+                <span class="bar2"></span>
+                <span class="bar3"></span>
+            </div>
+            <ul id="list">
+                <li><a href="">Home</a></li>
+                <li><a href="">Products</a></li>
+                <li><a href="">News</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="header" id="head">
+        <div class="container">
+            <div class="up">
+                <div class="text">
+                    <h3>iphone 13 pro max</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit sint animi dolores eos ea eius?</p>
+                    <a href="">All Products</a>
+                </div>
+                <div class="mobile">
+                    <img id="main_mobile" src="/images/0.png" alt="">
+                </div>
+            </div>
+            <div class="mobiles">
+                <img onclick='mobileClick(this); handleColor("#000")' src="./images/0.png" alt="">
+                <img onclick='mobileClick(this); handleColor("#247ec8")' src="./images/1.png" alt="">
+                <img onclick='mobileClick(this); handleColor("#1e1e1e")' src="./images/2.png" alt="">
+                <img onclick='mobileClick(this); handleColor("#c79b53")' src="./images/3.png" alt="">
+                <img onclick='mobileClick(this); handleColor("#c82525")' src="./images/4.png" alt="">
+            </div>
+        </div>
+    </div>
+    <script src="./functions.js"></script>
+</body>
+
+</html>
