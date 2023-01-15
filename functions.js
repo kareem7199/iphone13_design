@@ -1,6 +1,7 @@
 let list = document.getElementById("list")
 let open = false;
 let body = document.querySelector("body");
+let navbar = document.getElementById("navbar")
 let mainMobile = document.getElementById("main_mobile")
 
 function handleClick(x) {
@@ -16,4 +17,5 @@ function mobileClick(el){
 function handleColor(color){
     body.style.backgroundColor = color;
     list.style.backgroundColor=color;
+    navbar.style.backgroundColor=color;
 }
